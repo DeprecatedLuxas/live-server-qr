@@ -19,4 +19,3 @@
 
 ## LICENSE
 This extension is licensed under the [MIT License](LICENSE)
-QR Barcode Scanner
