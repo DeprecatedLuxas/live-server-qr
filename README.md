@@ -1,13 +1,14 @@
 # live-server-qr
+Scan a QR Code to open your live server up in your mobile browser.
+
+
 
 ## Requirements
 
 * [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 
-## Features
- * A Quick QR Code Generator
-
+## How To
 
 
 ## Release Notes

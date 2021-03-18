@@ -1,4 +1,4 @@
-import * as fs from "fs";
+
 import * as path from "path";
 import * as vscode from "vscode";
 
@@ -28,17 +28,12 @@ export function getCorrectWorkspace(uri?: string) {
             (folder: vscode.WorkspaceFolder) => folder.name
         );
 
-        console.log(workspaceNames!.length);
         if (workspaceNames!.length === 1) {
-            console.log(workspaceFolders![0].uri.fsPath);
             resolve(workspaceFolders![0].uri.fsPath);
         }
 
         if (uri) {
-            resolve(workspaceFolders![0].uri.fsPath);
-            // resolve(workspaceFolders?.find((ws) =>
-            //     uri.startsWith(ws.uri.fsPath)
-            // ));
+            resolve(workspaceFolders?.find((ws) => uri.startsWith(ws.uri.fsPath)) ? workspaceFolders!.find((ws) => uri.startsWith(ws.uri.fsPath))!.uri.fsPath : "");
         }
     });
 }

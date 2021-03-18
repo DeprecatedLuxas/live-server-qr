@@ -3,9 +3,7 @@ import { IHttps } from "./types";
 import ip from 'ip';
 
 export const createLanAdress = (path?: string) => {
-    const lan = LiveServerConfig.getHttps.enable ? "https://" : "http://" + ip.address() + ':' + LiveServerConfig.getPort + "/" + path;
-    console.log(lan);
-    return lan;
+    return LiveServerConfig.getHttps.enable ? "https://" : "http://" + ip.address() + ':' + LiveServerConfig.getPort + "/" + path;
 };
 
 
