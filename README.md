@@ -16,6 +16,8 @@ Click this icon to generate a qr code to be scanned and opened in your mobile br
 
 ## Release Notes
 
+* ### Version 0.0.2
+  * Fixed a bug with folders.
 * ### Version 0.0.1
   * Initial Release
 
