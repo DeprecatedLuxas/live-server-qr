@@ -1,10 +1,14 @@
 {
     "name": "live-server-qr",
-	"publisher": "Lucas Norgaard",
+	"publisher": "lucasnorgaard",
     "displayName": "Live Server QR",
     "icon": "media/icon.png",
     "description": "",
     "version": "0.0.1",
+    "author": {
+        "name": "Lucas Nørgård",
+        "email": "lucasnrgaard@gmail.com"
+    },
     "engines": {
         "vscode": "^1.51.0"
     },
@@ -41,6 +45,10 @@
             ]
         }
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DeprecatedLuxas/live-server-qr.git"
+      },
     "scripts": {
         "vscode:prepublish": "npm run package",
         "compile": "webpack --config webpack.config.js",
