@@ -8,7 +8,10 @@ Scan a QR Code to open your live server up in your mobile browser.
 * [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 
-## How To
+## Getting Started
+Once you have the extension installed, open your live server.  
+Click this icon to generate a qr code to be scanned and opened in your mobile browser.
+![extension ui](getting_started.png)
 
 
 ## Release Notes
