@@ -3,6 +3,7 @@ import { IHttps } from "./types";
 import ip from 'ip';
 
 export const createLanAdress = (path?: string) => {
+    path = path!.replace(/\\/gi, '/');
     return LiveServerConfig.getHttps.enable ? "https://" : "http://" + ip.address() + ':' + LiveServerConfig.getPort + "/" + path;
 };
 

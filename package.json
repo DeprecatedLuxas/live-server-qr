@@ -4,7 +4,7 @@
     "displayName": "Live Server QR",
     "icon": "media/icon.png",
     "description": "Scan a QR Code to open your live server up in your mobile browser.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": {
         "name": "Lucas Nørgård",
         "email": "lucasnrgaard@gmail.com"
